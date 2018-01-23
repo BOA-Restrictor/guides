@@ -1,3 +1,134 @@
+inherit_from: https://cdn.rawgit.com/BetterOfficeApps/guides/v0.0.1/style/ruby/.rubocop.yml
+
 AllCops:
   Exclude:
-    - db/schema.rb
+    - '.*'
+    - 'apps/lender_submission/spec/**/*'
+    - 'bin/**/*'
+    - 'coverage/**/*'
+    - 'db/**/*'
+    - 'engines/pdf_exporter/spec/**/*'
+    - 'engines/referral_sources/spec/**/*'
+    - 'log/**/*'
+    - 'org/**/*'
+    - 'spec/**/*'
+    - 'tmp/**/*'
+
+Layout/EmptyLineAfterMagicComment:
+  Enabled: false
+
+Layout/IndentHeredoc:
+  Enabled: false
+
+Metrics/AbcSize:
+  Enabled: true
+  Max: 25
+
+Metrics/BlockLength:
+  Enabled: true
+  Max: 25
+
+Metrics/ClassLength:
+  Enabled: true
+  Max: 100
+
+Metrics/CyclomaticComplexity:
+  Enabled: true
+  Max: 7
+
+Metrics/LineLength:
+  Max: 135
+  AllowURI: true
+  URISchemes:
+  - http
+  - https
+
+Metrics/ModuleLength:
+  Max: 100
+
+Metrics/ParameterLists:
+  CountKeywordArgs: true
+  Enabled: true
+  Max: 4
+
+Metrics/PerceivedComplexity:
+  Enabled: true
+  Max: 7
+
+Naming/PredicateName:
+  Enabled: false
+
+Style/AndOr:
+  Enabled: false
+
+Style/AsciiComments:
+  Enabled: false
+
+Style/BracesAroundHashParameters:
+  Enabled: false
+
+Style/ClassAndModuleChildren:
+  Enabled: false
+
+Style/CollectionMethods:
+  Enabled: false
+
+Style/ConditionalAssignment:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/EachWithObject:
+  Enabled: false
+
+Style/Encoding:
+  Enabled: false
+
+Style/FormatString:
+  Enabled: false
+
+Style/InlineComment:
+  Enabled: false
+
+Style/Lambda:
+  Enabled: false
+
+Style/LambdaCall:
+  Enabled: false
+
+Style/ModuleFunction:
+  Enabled: false
+
+Style/NegatedIf:
+  Enabled: false
+
+Style/ParallelAssignment:
+  Enabled: false
+
+Style/PercentLiteralDelimiters:
+  Enabled: false
+
+Style/RaiseArgs:
+  Enabled: false
+
+Style/RegexpLiteral:
+  Enabled: false
+
+Style/SafeNavigation:
+  Enabled: false
+
+Style/SignalException:
+  Enabled: false
+
+Style/SingleLineBlockParams:
+  Enabled: false
+
+Style/SingleLineMethods:
+  Enabled: false
+
+Style/SymbolArray:
+  Enabled: false
+
+Style/WordArray:
+  Enabled: false
