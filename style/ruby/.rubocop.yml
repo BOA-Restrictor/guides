@@ -1,5 +1,3 @@
-inherit_from: https://cdn.rawgit.com/BetterOfficeApps/guides/v0.0.1/style/ruby/.rubocop.yml
-
 AllCops:
   Exclude:
     - '.*'
