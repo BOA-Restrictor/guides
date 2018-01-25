@@ -3,6 +3,7 @@ AllCops:
     - '.*'
     - '**/spec/**/*'
     - 'bin/**/*'
+    - 'config/routes.rb'
     - 'coverage/**/*'
     - 'db/**/*'
     - 'log/**/*'
