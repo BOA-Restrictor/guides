@@ -1,0 +1,10 @@
+AllCops:
+  Exclude:
+    - '.*'
+    - '**/spec/**/*'
+    - 'bin/**/*'
+    - 'coverage/**/*'
+    - 'db/**/*'
+    - 'log/**/*'
+    - 'org/**/*'
+    - 'tmp/**/*'
