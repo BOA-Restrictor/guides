@@ -1,8 +1,8 @@
 AllCops:
   Exclude:
     - '.*'
-    - '**/spec/**/*'
-    - '**/coverage/**/*'
+    - '**/spec/'
+    - '**/coverage/'
     - 'bin/**/*'
     - 'config/routes.rb'
     - 'db/**/*'
