@@ -2,10 +2,15 @@ AllCops:
   Exclude:
     - '.*'
     - '**/spec/**/*'
+    - '**/coverage/**/*'
     - 'bin/**/*'
     - 'config/routes.rb'
-    - 'coverage/**/*'
     - 'db/**/*'
     - 'log/**/*'
     - 'org/**/*'
     - 'tmp/**/*'
+    - 'public/**/*'
+    - 'vendor/**/*'
+
+Metrics/LineLength:
+  Max: 110
