@@ -11,6 +11,7 @@ AllCops:
     - 'tmp/**/*'
     - 'public/**/*'
     - 'vendor/**/*'
+  DisplayCopNames: true
 
 Layout/EmptyLineAfterMagicComment:
   Enabled: false
@@ -129,4 +130,7 @@ Style/SymbolArray:
   Enabled: false
 
 Style/WordArray:
+  Enabled: false
+  
+Style/ModuleFunction:
   Enabled: false
