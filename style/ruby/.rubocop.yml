@@ -1,16 +1,18 @@
 AllCops:
+  TargetRubyVersion: 2.3
   Exclude:
     - '.*'
-    - '**/spec/'
     - '**/coverage/'
     - 'bin/**/*'
     - 'config/routes.rb'
     - 'db/**/*'
     - 'log/**/*'
     - 'org/**/*'
-    - 'tmp/**/*'
     - 'public/**/*'
+    - 'spec/**/*'
+    - 'tmp/**/*'
     - 'vendor/**/*'
+
   DisplayCopNames: true
 
 Layout/EmptyLineAfterMagicComment:
@@ -26,6 +28,8 @@ Metrics/AbcSize:
 Metrics/BlockLength:
   Enabled: true
   Max: 25
+  Exclude:
+    - '*/*/spec/**/*'
 
 Metrics/ClassLength:
   Enabled: true
@@ -127,6 +131,6 @@ Style/SymbolArray:
 
 Style/WordArray:
   Enabled: false
-  
+
 Style/ModuleFunction:
   Enabled: false
