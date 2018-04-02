@@ -36,11 +36,7 @@ Metrics/CyclomaticComplexity:
   Max: 10
 
 Metrics/LineLength:
-  Max: 135
-  AllowURI: true
-  URISchemes:
-  - http
-  - https
+  Enabled: false
 
 Metrics/ModuleLength:
   Max: 100
