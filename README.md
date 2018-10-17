@@ -5,6 +5,7 @@ Guides is a public repo for storing, among other things, public configuration fi
 ### Style guide configurations
 
 [Ruby](/style/ruby/.rubocop.yml)
+[JavaScript](https://github.com/BetterOfficeApps/eslint-config-lendesk)
 
 ### How to request a style guide configuration update
 
